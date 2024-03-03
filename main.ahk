@@ -17,7 +17,7 @@ sc079:: Send "{Space}"
 Space:: Send "{Enter}"
 sc029:: Send "#{Tab}"
 
-;設定しないとなぜかバグる
+;設定しないとなぜか反応しない
 ^Space:: Send "^{Space}"
 
 ;Linuxのオマージュ
