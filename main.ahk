@@ -8,7 +8,7 @@ showWindow(winTitle,path){
         Run path
 }
 
-;キー置換
+;キーリマップ
 Delete:: Shutdown PC_SHUTDOWN
 Insert:: Shutdown PC_REBOOT
 Pause:: Send "^+{Esc}"
@@ -20,7 +20,7 @@ sc029:: Send "#{Tab}"
 ;設定しないとなぜかバグる
 ^Space:: Send "^{Space}"
 
-;Linux再現
+;Linuxのオマージュ
 Space & h:: Send "{Left}"
 Space & j:: Send "{Down}"
 Space & k:: Send "{Up}"
@@ -28,7 +28,7 @@ Space & l:: Send "{Right}"
 Space & t:: Send "!{Left}"
 Space & ]:: Send "!{Right}"
 
-;ショートカットキー
+;ショートカットキーの割り当て
 Space & 1:: Send "{F1}"
 Space & 2:: Send "{F2}"
 Space & 3:: Send "{F3}"
