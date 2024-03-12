@@ -13,11 +13,11 @@ Delete:: Shutdown PC_SHUTDOWN
 Insert:: Shutdown PC_REBOOT
 Pause:: Send "^+{Esc}"
 Enter:: Send "{Delete}"
-sc079:: Send "{Space}"
-Space:: Send "{Enter}"
+sc079:: Send "{Enter}"
 sc029:: Send "#{Tab}"
 
 ;設定しないとなぜか反応しない
+Space:: Send "{Space}"
 ^Space:: Send "^{Space}"
 
 ;Linuxのオマージュ
