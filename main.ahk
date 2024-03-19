@@ -20,7 +20,7 @@ sc029:: Send "#{Tab}"
 Space:: Send "{Space}"
 ^Space:: Send "^{Space}"
 
-;Vimの再現
+;Vimのオマージュ
 Space & h:: Send "{Left}"
 Space & j:: Send "{Down}"
 Space & k:: Send "{Up}"
