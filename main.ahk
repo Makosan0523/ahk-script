@@ -13,8 +13,8 @@ Delete:: Shutdown PC_SHUTDOWN
 Insert:: Shutdown PC_REBOOT
 Pause:: Send "^+{Esc}"
 Enter:: Send "{Delete}"
-sc079:: Send "{Enter}"
 sc029:: Send "#{Tab}"
+F13:: Send "{Enter}"
 
 ;設定しないとなぜか反応しない
 Space:: Send "{Space}"
@@ -27,6 +27,7 @@ Space & k:: Send "{Up}"
 Space & l:: Send "{Right}"
 Space & t:: Send "!{Left}"
 Space & ]:: Send "!{Right}"
+Space & x:: Send "{BackSpace}"
 
 ;ショートカットキーの割り当て
 Space & 1:: Send "{F1}"
