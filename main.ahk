@@ -59,4 +59,4 @@ Space & m:: showWindow("Blender","C:\Program Files\Blender Foundation\Blender 3.
 Space & o:: showWindow("i2211408@mako","C:\WINDOWS\system32\wsl.exe -d Ubuntu")
 Space & p:: showWindow("GIMP (GNU Image Manipulation Program)","C:\Users\i2211408\AppData\Local\Programs\GIMP 2\bin\gimp-2.10.exe")
 Space & s:: showWindow("LINE","C:\Users\i2211408\AppData\Local\LINE\bin\LineLauncher.exe")
-Space & u:: showWindow("Figma","C:\Users\i2211408\AppData\Local\Figma\app-116.15.15\Figma.exe")
+Space & u:: showWindow("Figma","C:\Users\i2211408\AppData\Local\Figma\app-116.17.11\Figma.exe")
